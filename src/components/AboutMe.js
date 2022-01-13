@@ -1,11 +1,11 @@
 import React from "react";
+import Megan from "../images/Megan.jpg";
 
 const AboutMe = () => {
   return (
     <div>
       <h1> About Me! </h1>
       <h1>Megan D.</h1>
-      <img src="http://placehold.it/" alt="Megan"></img>
       <h2>
         Hiya! My name is Megan and it's great to meet you! I am a web developer
         based in southern Florida. In my free time I love playing videos games,
@@ -16,6 +16,7 @@ const AboutMe = () => {
         named Mousse who mostly tolerates my existence as a necessary part of
         dinner time.
       </h2>
+      <img src={Megan} alt="Megan" />
     </div>
   );
 };
