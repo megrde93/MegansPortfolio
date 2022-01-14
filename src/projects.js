@@ -1,7 +1,38 @@
 export const projects = [
   {
-    ProjectName: "Food App",
+    ProjectName: "Velma Scoob",
     image: "Fake image link",
-    ProjectDescription: "This was an app about food",
+    ProjectDescription: "A simple Resume website for a UX web designer",
+    ProjectLink: "https://megrde93.github.io/portfolio/",
+    TechUsed: "HTML, CSS, GitHub pages",
+    Date: "October, 2021",
+  },
+
+  {
+    ProjectName: "Can you stack up?",
+    image: "Fake image link",
+    ProjectDescription: "A twist on the classic “scoops” stacking game",
+    ProjectLink: "",
+    TechUsed: "Java Script, CSS, HTML, Jira, Canvas",
+    Date: "November, 2021",
+  },
+
+  {
+    ProjectName: "Dinner Time",
+    image: "Fake image link",
+    ProjectDescription: "A random ingredient selector and recipe search tool",
+    ProjectLink: "https://megrde93.github.io/FoodApp/#/",
+    TechUsed: "React JS, CSS, Edamam API, Figma",
+    Date: "November, 2021",
+  },
+
+  {
+    ProjectName: "TripPic",
+    image: "Fake image link",
+    ProjectDescription: "A social media site used for sharing travel photos",
+    ProjectLink: "https://naughty-shockley-bfe608.netlify.app/",
+    TechUsed:
+      "MongoDB Atlas, Express, Node, React JS, CSS, Heroku, Netlify, Cloudinary, Figma",
+    Date: "December, 2021",
   },
 ];

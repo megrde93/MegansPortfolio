@@ -1,5 +1,6 @@
 import React from "react";
 import { projects } from "../projects";
+import { Link } from "react-router-dom";
 
 const PastWork = () => {
   return (
@@ -13,7 +14,9 @@ const PastWork = () => {
                 " , " +
                 data.image +
                 " ," +
-                data.ProjectDescription}
+                data.ProjectDescription +
+                " ," +
+                data.TechUsed}
             </div>
           );
         })}
