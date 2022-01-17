@@ -4,7 +4,6 @@ import Megan from "../images/Megan.jpg";
 const AboutMe = () => {
   return (
     <div>
-      <h1> About Me! </h1>
       <h1>Megan D.</h1>
       <h2>
         Hiya! My name is Megan and it's great to meet you! I am a web developer
