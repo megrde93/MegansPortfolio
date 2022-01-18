@@ -1,4 +1,5 @@
 import React from "react";
+import { projects } from "../projects";
 
 const ProjectPage = () => {
   return (
@@ -23,5 +24,4 @@ const ProjectPage = () => {
   );
 };
 
-export default PastWork;
 export default ProjectPage;
