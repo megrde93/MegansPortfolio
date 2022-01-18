@@ -14,9 +14,7 @@ const PastWork = () => {
                 " , " +
                 data.image +
                 " ," +
-                data.ProjectDescription +
-                " ," +
-                data.TechUsed}
+                data.ProjectDescription}
             </div>
           );
         })}
