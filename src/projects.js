@@ -1,7 +1,11 @@
+import React from "react";
+import CanYouStack from "./images/CanYouStack.png";
+import TripPic from "./images/TripPic.png";
+
 export const projects = [
   {
     ProjectName: "Velma Scoob",
-    image: "Fake image link",
+    image: "empty",
     ProjectDescription: "A simple Resume website for a UX web designer",
     ProjectLink: "https://megrde93.github.io/portfolio/",
     TechUsed: "HTML, CSS, GitHub pages",
@@ -10,7 +14,7 @@ export const projects = [
 
   {
     ProjectName: "Can you stack up?",
-    image: "Fake image link",
+    image: CanYouStack,
     ProjectDescription: "A twist on the classic “scoops” stacking game",
     ProjectLink: "",
     TechUsed: "Java Script, CSS, HTML, Jira, Canvas",
@@ -28,7 +32,7 @@ export const projects = [
 
   {
     ProjectName: "TripPic",
-    image: "Fake image link",
+    image: TripPic,
     ProjectDescription: "A social media site used for sharing travel photos",
     ProjectLink: "https://naughty-shockley-bfe608.netlify.app/",
     TechUsed:
