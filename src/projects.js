@@ -1,11 +1,13 @@
 import React from "react";
 import CanYouStack from "./images/CanYouStack.png";
 import TripPic from "./images/TripPic.png";
+import Dinnerpic from "./images/Dinner.png";
+import VelmaScoob from "./images/VelmaScoob.png";
 
 export const projects = [
   {
     ProjectName: "Velma Scoob",
-    image: "empty",
+    image: VelmaScoob,
     ProjectDescription: "A simple Resume website for a UX web designer",
     ProjectLink: "https://megrde93.github.io/portfolio/",
     TechUsed: "HTML, CSS, GitHub pages",
@@ -23,7 +25,7 @@ export const projects = [
 
   {
     ProjectName: "Dinner Time",
-    image: "Fake image link",
+    image: Dinnerpic,
     ProjectDescription: "A random ingredient selector and recipe search tool",
     ProjectLink: "https://megrde93.github.io/FoodApp/#/",
     TechUsed: "React JS, CSS, Edamam API, Figma",
