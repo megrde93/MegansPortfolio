@@ -12,9 +12,10 @@ const PastWork = () => {
             return (
               <div>
                 <h1>{data.ProjectName}</h1>
-                <Link href={data.ProjectLink}>
+                <Link to={data.ProjectName}>
                   <img src={data.image} alt="Project" />
                 </Link>
+
                 <h2> {data.ProjectDescription} </h2>
               </div>
             );
