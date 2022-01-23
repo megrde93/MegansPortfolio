@@ -8,11 +8,13 @@ const PastWork = () => {
       <div>
         <h1 className="text-3xl font-bold underline">Past Projects</h1>
         <div class="grid grid-cols-2 gap-4">
-          {projects.map((data, key) => {
+          {projects.map((data) => {
             return (
               <div>
                 <h1>{data.ProjectName}</h1>
-                <img src={data.image} alt="Project" />
+                <Link href={data.ProjectLink}>
+                  <img src={data.image} alt="Project" />
+                </Link>
                 <h2> {data.ProjectDescription} </h2>
               </div>
             );
