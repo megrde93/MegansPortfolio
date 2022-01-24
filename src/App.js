@@ -2,6 +2,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import AboutMe from "./components/AboutMe";
 import PastWork from "./components/PastWork";
+import ProjectPage from "./components/ProjectPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="PastWork" element={<PastWork />} />
         <Route path="AboutMe" element={<AboutMe />} />
+        <Route path=":ProjectName" element={<ProjectPage />} />
       </Routes>
     </div>
   );
