@@ -6,6 +6,10 @@ const HomePage = () => {
       <h2>
         I am a web developer who prioritizes beautiful, functional design.
       </h2>
+      <div>
+        <h2> My specialties are fron-end responsive design.</h2>
+      </div>
+      <button> Contact Me</button>
     </div>
   );
 };

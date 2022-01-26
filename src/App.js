@@ -3,6 +3,7 @@ import HomePage from "./components/HomePage";
 import AboutMe from "./components/AboutMe";
 import PastWork from "./components/PastWork";
 import ProjectPage from "./components/ProjectPage";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -11,12 +12,14 @@ function App() {
         <Link to="/"> Home</Link>
         <Link to="/PastWork"> See My Work</Link>
         <Link to="/AboutMe"> About Me</Link>
+        <Link to="Contact"> About Me</Link>
       </header>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="PastWork" element={<PastWork />} />
         <Route path="AboutMe" element={<AboutMe />} />
-        <Route path=":ProjectName" element={<ProjectPage />} />
+        <Route path="Contact" element={<Contact />} />
+        <Route path="/ProjectPage/:" element={<ProjectPage />} />
       </Routes>
     </div>
   );
