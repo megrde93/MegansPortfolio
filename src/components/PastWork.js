@@ -12,9 +12,15 @@ const PastWork = () => {
             return (
               <div>
                 <h1>{data.ProjectName}</h1>
-                <Link to={data.ProjectName}>
-                  <img src={data.image} alt="Project" />
-                </Link>
+                <div>
+                  <Link to={data.ProjectName}>
+                    <img
+                      class="object-cover h-48 w-96 ... "
+                      src={data.image}
+                      alt="Project"
+                    />
+                  </Link>
+                </div>
 
                 <h2> {data.ProjectDescription} </h2>
               </div>
