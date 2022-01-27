@@ -15,7 +15,7 @@ const PastWork = () => {
                 <div>
                   <Link to={data.ProjectName}>
                     <img
-                      class="object-cover h-48 w-96 ... "
+                      class="object-cover h-48 w-96 ..."
                       src={data.image}
                       alt="Project"
                     />
