@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Contact from "./components/Contact";
 
 const HomePage = () => {
   return (
@@ -8,13 +10,14 @@ const HomePage = () => {
       </h2>
       <div>
         <h2>
-          {" "}
           My specialties are front-end responsive design. I also work with work
-          with squarespace and am happy to work with you on designing your
-          website.{" "}
+          with squarespace. I am happy to work with you on designing your
+          website.
         </h2>
       </div>
-      <button> Contact Me</button>
+      <Link to={Contact}>
+        <button> Contact Me</button>
+      </Link>
     </div>
   );
 };
