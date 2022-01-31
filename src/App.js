@@ -12,7 +12,7 @@ function App() {
         <Link to="/"> Home</Link>
         <Link to="/PastWork"> See My Work</Link>
         <Link to="/AboutMe"> About Me</Link>
-        <Link to="Contact"> About Me</Link>
+        <Link to="Contact"> Contact </Link>
       </header>
       <Routes>
         <Route path="/" element={<HomePage />} />
