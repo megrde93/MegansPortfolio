@@ -6,12 +6,15 @@ const Contact = () => {
     <div>
       <h1>Contact me!</h1>
       <h2>Have questions? Or just want to chat about my work?</h2>
-      <Link
-        to={{ pathname: "https://linkedin.com/in/megan-deray" }}
+      <a
         target="_blank"
+        rel="noopener noreferrer"
+        href="https://linkedin.com/in/megan-deray"
       >
         LinkedIn
-      </Link>
+      </a>
+
+      <a href="mailto:megan.r.deray@gmail.com">Email Me</a>
     </div>
   );
 };

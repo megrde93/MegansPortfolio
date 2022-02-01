@@ -12,9 +12,8 @@ const AboutMe = () => {
           videos games, particularly strategy ones, and reading books of all
           types. I’ve been accused of being a horrible cook but an excellent
           baker, which confuses everyone, most of all me. I have a West Highland
-          Terrier named Buffy who adores me and likes Saturday morning trips to
-          the dog park, and a cat named Mousse who mostly tolerates my existence
-          as a necessary part of dinner time.
+          Terrier named Buffy who adores me, and a cat named Mousse who mostly
+          tolerates my existence as a necessary part of dinner time.
         </h2>
         <img src={Megan} alt="Megan" />
       </div>
