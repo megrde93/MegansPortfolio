@@ -13,7 +13,7 @@ const PastWork = () => {
               <div>
                 <h1>{data.ProjectName}</h1>
                 <div>
-                  <Link to={data.ProjectName}>
+                  <Link to={"ProjectPage/" + data.ProjectName}>
                     <img
                       class="object-cover h-48 w-96 ..."
                       src={data.image}
