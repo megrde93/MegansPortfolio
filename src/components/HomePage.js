@@ -14,7 +14,7 @@ const HomePage = () => {
         <h2>
           My specialties are front-end responsive design. I also work with work
           with squarespace. I am happy to work with you on designing your new
-          website.
+          website. Contact me for more information.
         </h2>
       </div>
       <Link to={Contact}>
