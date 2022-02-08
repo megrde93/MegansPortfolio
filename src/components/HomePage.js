@@ -24,7 +24,7 @@ const HomePage = () => {
         >
           MakeItMVP.
         </a>
-        <Link to={PastWork}>
+        <Link to="PastWork">
           <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
             See My Past Work
           </button>
@@ -36,8 +36,11 @@ const HomePage = () => {
         website. Contact me for more information.
       </h2>
 
-      <Link to={Contact}>
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+      <Link to="Contact">
+        <button
+          type="button"
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+        >
           Contact Me
         </button>
       </Link>
