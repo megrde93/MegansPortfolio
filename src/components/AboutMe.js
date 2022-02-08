@@ -16,7 +16,7 @@ const AboutMe = () => {
           baker, which confuses everyone, most of all me. I have a West Highland
           who adores me, and a cat who mostly tolerates my existence as a
           necessary part of dinner time.
-          <break></break>I started in web design after spending several years in
+          <break />I started in web design after spending several years in
           Systems Technician jobs. I was motivated by my desire to create
           something new. My favorite technologies to work with are React,
           tailwind and square space. Are you looking for someone to work on a

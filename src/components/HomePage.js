@@ -6,8 +6,10 @@ import PastWork from "./PastWork";
 const HomePage = () => {
   return (
     <div>
-      <h1>Megan Deray</h1>
-      <h1>Web Developer • IT Systems Admin • CompTIA Certified</h1>
+      <h1 className="text-3xl text-center	">Megan Deray</h1>
+      <h1 className="text-2xl text-center	">
+        Web Developer • IT Systems Admin • CompTIA Certified
+      </h1>
       <h2>
         I am a web developer who prioritizes beautiful, functional design.
       </h2>
