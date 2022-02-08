@@ -16,13 +16,11 @@ const AboutMe = () => {
           baker, which confuses everyone, most of all me. I have a West Highland
           who adores me, and a cat who mostly tolerates my existence as a
           necessary part of dinner time.
-        </h2>
-        <h2>
-          I started in web design after spending several years in Systems
-          Technician jobs. I was motivated by my desire to create something new.
-          My favorite technologies to work with are React, tailwind and square
-          space. Are you looking for someone to work on a web development
-          project? Contact me to get started!
+          <break></break>I started in web design after spending several years in
+          Systems Technician jobs. I was motivated by my desire to create
+          something new. My favorite technologies to work with are React,
+          tailwind and square space. Are you looking for someone to work on a
+          web development project? Contact me to get started!
         </h2>
         <img src={Megan} alt="Megan" />
         <Link to={Contact}>

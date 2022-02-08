@@ -11,7 +11,8 @@ const PastWork = () => {
           {projects.map((data) => {
             return (
               <div>
-                <h1>Examples of my past work</h1>
+                <h1>Examples of my past work </h1>
+
                 <h1>{data.ProjectName}</h1>
                 <div>
                   <Link to={"ProjectPage/" + data.ProjectName}>
