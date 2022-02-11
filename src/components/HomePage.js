@@ -14,7 +14,7 @@ const HomePage = () => {
 
       <div class="text-center">
         <h2>
-          I am currenlty working on React base projects with{" "}
+          I am currenlty working on React based projects with{" "}
           <a
             className="underline"
             target="_blank"
@@ -34,9 +34,9 @@ const HomePage = () => {
 
       <div class="text-center">
         <h2>
-          My specialties are front-end responsive design. I also work with work
-          with squarespace. I am happy to work with you on designing your new
-          website. Contact me for more information.
+          My specialties are front-end responsive design. I work primarily with
+          react and square space. I am happy to work with you on designing your
+          new website. Contact me for more information.
         </h2>
 
         <Link to="Contact">
