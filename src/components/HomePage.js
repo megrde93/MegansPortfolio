@@ -36,7 +36,7 @@ const HomePage = () => {
         <h2>
           My specialties are front-end responsive design. I work primarily with
           react and square space. I am happy to work with you on designing your
-          new website. Contact me for more information.
+          new website. Contact me for more information!
         </h2>
 
         <Link to="Contact">
