@@ -10,7 +10,7 @@ const Contact = () => {
         rel="noopener noreferrer"
         href="https://linkedin.com/in/megan-deray"
       >
-        LinkedIn
+        Connect on LinkedIn
       </a>
 
       <a href="mailto:megan.r.deray@gmail.com">Email Me</a>
