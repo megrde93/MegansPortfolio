@@ -11,7 +11,7 @@ function App() {
       <header class="header">
         <Link to="/"> Home</Link>
         <Link to="/PastWork"> See My Work</Link>
-        <Link to="/AboutMe"> About Me</Link>
+        <Link to="/AboutMe"> More About Me</Link>
         <Link to="Contact"> Contact </Link>
       </header>
       <Routes>
