@@ -9,20 +9,12 @@ const HomePage = () => {
         Web Developer • IT Systems Admin • CompTIA Certified
       </h1>
       <h2 className="text-center	">
-        I am a web developer who prioritizes beautiful, functional design.
+        I am a developer who prioritizes well thought out, beautiful, functional
+        design.
       </h2>
 
       <div class="text-center">
         <h2>
-          I am currenlty working on React based projects with{" "}
-          <a
-            className="underline"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/company/makeitmvp/"
-          >
-            MakeItMVP.
-          </a>
           <br />
           <Link to="PastWork">
             <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
@@ -38,6 +30,8 @@ const HomePage = () => {
           react. I am happy to work with you on designing your new website.
           Contact me for more information!
         </h2>
+
+        <h2> Tech I work with: HTML, CSS, and JavaScript, MONGODB,</h2>
 
         <Link to="Contact">
           <button
