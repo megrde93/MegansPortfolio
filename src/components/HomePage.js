@@ -31,7 +31,10 @@ const HomePage = () => {
           Contact me for more information!
         </h2>
 
-        <h2> Tech I work with: HTML, CSS, and JavaScript, MONGODB,</h2>
+        <h2>
+          {" "}
+          Tech I work with: HTML, CSS, and JavaScript, MONGODB, AWS Cloud
+        </h2>
 
         <Link to="Contact">
           <button
