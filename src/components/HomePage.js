@@ -33,7 +33,7 @@ const HomePage = () => {
 
         <h2>
           {" "}
-          Tech I work with: HTML, CSS, and JavaScript, MONGODB, AWS Cloud
+          Tech I work with: HTML, CSS, JavaScript, MONGODB, AWS Cloud, React,
         </h2>
 
         <Link to="Contact">
